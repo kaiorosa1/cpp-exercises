@@ -13,9 +13,7 @@
 
 #include "Ponto.h"
 
-class Ponto{
-     int x,y;
-};
+
 Ponto::Ponto() {
 }
 
