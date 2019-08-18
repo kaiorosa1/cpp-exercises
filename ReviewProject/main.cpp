@@ -17,6 +17,7 @@
 /*
  * 
  */
+void print_name();
 int main(int argc, char** argv) {
     
     // REVIEW BASIC CONCEPTS
@@ -29,7 +30,12 @@ int main(int argc, char** argv) {
     for(int i =0;i< nTimes;i++){
         std::cout<< i+1 << " ";
     }
-    //
+    // custom functions 
+    print_name();
     return 0;
+}
+
+void print_name(){
+    std::cout << "Name is being printed in a function" << std::endl;
 }
 
