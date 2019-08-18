@@ -4,15 +4,13 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Arquivos de Cabeçalho"
                    projectFiles="true">
-      <itemPath>Ponto.h</itemPath>
-      <itemPath>Triangulo.h</itemPath>
+      <itemPath>math_utils.h</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Arquivos de Código-Fonte"
                    projectFiles="true">
-      <itemPath>Ponto.cpp</itemPath>
-      <itemPath>Triangulo.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
+      <itemPath>math_utils.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Arquivos de Recurso"
@@ -40,15 +38,11 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="Ponto.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="Ponto.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="Triangulo.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="Triangulo.h" ex="false" tool="3" flavor2="0">
-      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="math_utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="math_utils.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -71,15 +65,11 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="Ponto.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="Ponto.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="Triangulo.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="Triangulo.h" ex="false" tool="3" flavor2="0">
-      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="math_utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="math_utils.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>

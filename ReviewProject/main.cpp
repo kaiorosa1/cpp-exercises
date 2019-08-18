@@ -13,11 +13,8 @@
 
 
 #include <iostream>
+#include "math_utils.h"
 
-/*
- * 
- */
-void print_name();
 int main(int argc, char** argv) {
     
     // REVIEW BASIC CONCEPTS
@@ -30,12 +27,24 @@ int main(int argc, char** argv) {
     for(int i =0;i< nTimes;i++){
         std::cout<< i+1 << " ";
     }
+    std::cout<< std::endl;
     // custom functions 
     print_name();
+    // function overloading example
+    Rectangle rect;
+    rect.length = 10;
+    rect.width = 10;
+    
+    // all this function should return the same value
+    std::cout << area(rect.length,rect.width) << std::endl;
+    std::cout << area(rect.length) << std::endl;
+    std::cout << area(rect) << std::endl;
+    
+    // default parameters
+    std::cout << pow(4,3) << std::endl;
+    std::cout<< pow(4) << std::endl;
     return 0;
 }
+// in case any value is assigned to exponent the default value is two
 
-void print_name(){
-    std::cout << "Name is being printed in a function" << std::endl;
-}
 
